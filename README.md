@@ -16,8 +16,8 @@ cd pytbot
 * Documentação
   - Você pode ver diretamente [aqui](https://github.com/nexzydev/pytbot/blob/main/src/init.py) ou pode continuar lendo isso.
   - Funções
-    - ```send_text(chat_id="ID_DO_CHAT", text="Hello world", parsemode="Markdown")``` -> Envia uma mensagem
-    - ```command(command_name="/exemplo")``` -> Verifica se um comando foi enviado, se foi enviado retorna uma lista contendo chat_id, command, message_id
+    - ```bot.send_text(chat_id="ID_DO_CHAT", text="Hello world", parsemode="Markdown")``` -> Envia uma mensagem
+    - ```bot.command(command_name="/exemplo")``` -> Verifica se um comando foi enviado, se foi enviado retorna uma lista contendo chat_id, command, message_id
    
 # Creditos
-Created by nexzy
+[nexzy](https://github.com/nexzydev)
